@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/proxmox-logo.png" width="50%" alt="Proxmox Logo" />
+<img src="assets/proxmox-logo.png" width="65%" alt="Proxmox Logo" />
 </p>
 
 # Proxmox VE Cluster Deployment 
