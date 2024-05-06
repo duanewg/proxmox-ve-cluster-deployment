@@ -2,7 +2,7 @@
 <img src="assets/proxmox-logo.png" alt="Proxmox Logo" />
 </p>
 
-# Setup a 3 Node Proxmox VE Cluster 
+# Proxmox VE Cluster Deployment 
 Installed and configured Proxmox VE to provide a platform for hosting a NAS (Network Attached Storage), Domain Controller, Document Management System, file sharing, and backups. This setup ensures centralized management, scalability, and efficient resource utilization, enabling the organization to streamline operations and adapt to evolving business requirements seamlessly.
 
 ## Environments and Technologies Used
