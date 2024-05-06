@@ -5,7 +5,7 @@
         media="(prefers-color-scheme: dark)"
     />
     <img
-        src="proxmox-logo.svg"
+        src="assets/proxmox-logo.svg"
         alt="Proxmox Logo"
     />
     </picture>
