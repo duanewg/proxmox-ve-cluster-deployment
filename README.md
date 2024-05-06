@@ -1,28 +1,34 @@
 <p align="center">
-<img src="https://place-hold.it/600x200" alt="Place Holder Image"/>
-<!-- <img src="assets/logo.svg" alt="Logo Text There" /> -->
+<img src="assets/proxmox-logo.png" alt="Proxmox Logo" />
 </p>
 
-# Project Title
-"[Project Name]" involves [briefly describe the main objective or purpose of the project] utilizing [mention any specific tools, technologies, or platforms]. This project aims to [mention the primary goal or outcome] to [highlight the intended impact or benefit].
+# Setup a 3 Node Proxmox VE Cluster 
+Installed and configured Proxmox VE to provide a platform for hosting a NAS (Network Attached Storage), Domain Controller, Document Management System, file sharing, and backups. This setup ensures centralized management, scalability, and efficient resource utilization, enabling the organization to streamline operations and adapt to evolving business requirements seamlessly.
 
 ## Environments and Technologies Used
 
-- Item 1
-- Item 2
-- Item 3
+- 3 x Dell PowerEdge R720xd
+    - 2 x Intel Xeon E5-2670 v2 2.50GHz 10-Core
+    - 9 x 4TB 7.2K SAS 3.5" 6Gbps hard drives
+    - 2 x 450GB 15K SAS 3.5" 6Gbps Hard Disk Drive
+    - 1 x 120GB SSD SATA 2.5" 6Gbps Solid State Drive
+    - 32GB PC3-10600R ECC RAM
+    - Dell 099GTM Quad Port 2x 10G RJ45 + 2x 1GB 
 
 ## Operating Systems Used
 
-- Operating System Name
+- Proxmox VE 7.1
 
 ## High-Level Deployment and Configuration Steps
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-- Step 5
+- Install severs in rack and connect to network
+- Install Proxmox VE on each physical server using a bootable USB with the Proxmox installation ISO
+    - Configure the location, time zone, timezone, email, root password, host name, and IP address
+- Update the system software on each server
+- Access the management GUI and configure storage for each server
+- Create a new cluster on one of the servers and copy the cluster join information
+- Access the management GUI for the remaining servers and join them to the cluster using the copied join information
+- Create VMs as required
 
 <h2>Architecture Diagram</h2>
 
