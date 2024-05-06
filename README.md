@@ -1,17 +1,15 @@
 <p align="center">
-<img src="assets/proxmox-logo.svg" alt="Proxmox Logo" />
+    <picture>
+    <source
+        srcset="assets/proxmox-logo-dark.svg"
+        media="(prefers-color-scheme: dark)"
+    />
+    <img
+        src="proxmox-logo.svg"
+        alt="Proxmox Logo"
+    />
+    </picture>
 </p>
-
-<picture>
-  <source
-    srcset="assets/proxmox-logo-dark.svg"
-    media="(prefers-color-scheme: dark)"
-  />
-  <img
-    src="proxmox-logo.svg"
-    alt="Proxmox Logo"
-  />
-</picture>
 
 # Proxmox VE Cluster Deployment 
 Installed and configured Proxmox VE to provide a platform for hosting a NAS (Network Attached Storage), Domain Controller, Document Management System, file sharing, and backups. This setup ensures centralized management, scalability, and efficient resource utilization, enabling the organization to streamline operations and adapt to evolving business requirements seamlessly.
